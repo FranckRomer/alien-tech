@@ -4,7 +4,7 @@
 
 @layer base {
   body{
-      @apply max-w-7xl min-h-screen mx-auto px-4 dark:bg-gray-800 dark:text-amber-50;
+      @apply max-w-7xl min-h-screen mx-auto px-4 dark:bg-gray-800 dark:text-amber-50 transition-all duration-500;
       /* @apply dark: bg-red-400 dark: text-blue-800; */
   }
 }
