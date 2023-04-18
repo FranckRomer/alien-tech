@@ -2,7 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+@layer base {
+  body{
+      @apply max-w-7xl min-h-screen mx-auto px-4 dark:bg-gray-800 dark:text-amber-50;
+      /* @apply dark: bg-red-400 dark: text-blue-800; */
+  }
+}
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +31,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
